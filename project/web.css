@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+
+/* 초기화 요소 */
+*{ margin: 0; padding: 0;}
+
+ol,ul {list-style: none;}
+
+a:link,a:visited,a:hover,a:active {text-decoration: none; color: #000;}
+
+body {font-family: 'Noto Sans KR'; font-size: 16px; line-height: 26px; color: #000;}
+
+
+/* */
+
+#wrap { position: relative; }
+
+.view a {color: #000; font-size: 1vw; display: inline-block; padding: 1% 3%; /*border-radius: 100px;*/ background: rgba(255,255,255,1); box-shadow: 1px 1px 10px; text-transform: uppercase; position: absolute; top:120px; right: 46%; z-index: 3; font-weight: bold; z-index: 99999; transition: background 0.5s;}
+.view a:hover {background: rgba(255,255,255,0.7);}
+
+
+.btn_back a {color: #fff; display: inline-block; padding: 1.6% 1.2%; background: rgba(0,0,0,1); text-transform: uppercase; position: absolute; bottom:100px; left: 50%; transform: translateX(-50%); z-index: 1; border-radius: 100px; transition: background 0.5s; }
+#styleguide .btn_back a:hover {background: rgba(255,255,255,0.7);}
