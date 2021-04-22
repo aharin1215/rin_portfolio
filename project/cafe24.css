@@ -16,6 +16,8 @@ body {font-family: 'Noto Sans KR'; font-size: 16px; line-height: 26px; color: #0
 
 #wrap { position: relative; }
 
+#wrap .img {width: 100%; }
+
 .view a {color: #000; font-size: 1vw; display: inline-block; padding: 10px 3%; /*border-radius: 100px;*/ background: rgba(255,255,255,1); box-shadow: 1px 1px 10px; text-transform: uppercase; position: absolute; top:180px; right: 46%; z-index: 3; font-weight: bold; z-index: 99999; transition: background 0.5s;}
 .view a:hover {background: rgba(255,255,255,0.7);}
 
